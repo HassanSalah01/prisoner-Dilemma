@@ -5,4 +5,7 @@ class PlayerAlgo extends Player {
     super(x);
     this.algoUsed = algo;
   }
+  TFTT(p2) {
+    
+  }
 }
