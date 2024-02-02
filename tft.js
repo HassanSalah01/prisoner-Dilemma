@@ -1,11 +1,11 @@
-const TFT = (a,b)=>{
-  a=b;
-}
+const TFT = (a, b) => {
+  a = b;
+};
 
 const arr = [];
-let x=1;
-let y= 1;
-arr.push([x,y]);
+let x = 1;
+let y = 1;
+arr.push([x, y]);
 
 checkWinner = (opponent) => {
   this.playingHistory();
@@ -19,5 +19,8 @@ checkWinner = (opponent) => {
   } else {
     this.score = opponent.score += 1;
   }
-  };
-  RECCursion
+};
+module.exports = {
+  TFT,
+  checkWinner,
+};
